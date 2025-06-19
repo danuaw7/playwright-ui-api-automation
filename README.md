@@ -22,14 +22,19 @@ This project uses [Playwright](https://playwright.dev/) for both Web UI and API 
 - npm -v
 - npm list playwright
 
-## ⚠️ Known Issue Screenshot
+## ⚠️ Known Issue Screenshot on UI Automation
 Evidence: https://imgur.com/x0WqGjm
 
 > ⚠️ **Skipping this step due to a known issue:**  
 > The #countries dropdown (`<select id="countries">`)  is currently not selectable manually or via automation.
 As a result, I cannot proceed with full form submission, and automation is intentionally stopped before submitting the form.
 
-## 📹 Demo Video
+## 🌐 Demo Targets
+API: [Swagger Petstore API](https://petstore.swagger.io/#/)
+
+Web UI: [Automation Demo Site](https://demo.automationtesting.in/Register.html)
+
+## 📹 Automation Test Result Video
 API: https://imgur.com/NUfVy9T
 
 Web UI: https://imgur.com/hhe56kR
